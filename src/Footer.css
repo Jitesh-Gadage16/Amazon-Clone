@@ -1,0 +1,15 @@
+.Footer{
+    background-color: #232F3E;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+.Fooetr__links{
+    color: white;
+    justify-content: left;
+}
+.Fooetr__links ul li {
+    list-style: none;
+    text-align: left;
+}

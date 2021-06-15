@@ -1,0 +1,32 @@
+.CheckOutProducts{
+    display: flex;
+}
+.CheckOutProduct__image{
+    width:200px;
+    height: fit-content;
+    /* height: 150px; */
+}
+.CheckOutProducts__info{
+    display: flex;
+    flex-direction: column;
+}
+.CheckOutProducts__title{
+    text-align: left;
+    font-weight: 500;
+}
+.CheckOutProducts__price{
+    text-align: left;
+    font-size: 20px;
+}
+.CheckOutProducts__rating{
+    display: flex;
+}
+.CheckOutProducts button{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
